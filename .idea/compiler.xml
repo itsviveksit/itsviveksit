@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="khatabahi-logger" />
+        <module name="khatabahi-api-common" />
+        <module name="khatabahi-common" />
+        <module name="khatabah-api-base" />
+        <module name="khatabahi-api-application" />
+        <module name="khatabahi-common-errorhandler" />
+        <module name="khatabahi-dashboard-core" />
+        <module name="khatabahi-api-core-dashboard" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="khatabahi-api-app" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="khatabah-api-base" options="-g" />
+      <module name="khatabah-api-componenet" options="" />
+      <module name="khatabahi-api-app" options="-g" />
+      <module name="khatabahi-api-application" options="-g" />
+      <module name="khatabahi-api-common" options="-g" />
+      <module name="khatabahi-api-core" options="-g" />
+      <module name="khatabahi-api-core-dashboard" options="-g" />
+      <module name="khatabahi-common" options="-g" />
+      <module name="khatabahi-common-errorhandler" options="-g" />
+      <module name="khatabahi-dashboard-core" options="-g" />
+      <module name="khatabahi-dashboard-ms" options="" />
+      <module name="khatabahi-logger" options="-g" />
+      <module name="khatabahi-starter-parent" options="" />
+    </option>
+  </component>
+</project>

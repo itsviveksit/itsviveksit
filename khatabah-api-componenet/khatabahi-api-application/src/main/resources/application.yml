@@ -1,0 +1,23 @@
+server:
+  port: 8080
+  servlet:
+    session:
+      cookie:
+        name: DEMOSESSIONID
+        max-age: 100
+        path: /
+      timeout: 100
+    context-path: /khatabahi
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+camel:
+  component:
+    servlet:
+      mapping:
+        context-path: /*
+
+
+

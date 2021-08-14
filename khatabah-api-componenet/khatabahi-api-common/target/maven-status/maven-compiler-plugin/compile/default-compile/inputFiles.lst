@@ -1,0 +1,14 @@
+/Users/mishravivekanand/project/khatabahi/khatabah-api-componenet/khatabahi-api-common/src/main/java/com/org/khatabahi/common/base/request/GenericRequestBody.java
+/Users/mishravivekanand/project/khatabahi/khatabah-api-componenet/khatabahi-api-common/src/main/java/com/org/khatabahi/common/base/response/GenericResponse.java
+/Users/mishravivekanand/project/khatabahi/khatabah-api-componenet/khatabahi-api-common/src/main/java/com/org/khatabahi/common/base/request/GenericRequestHeader.java
+/Users/mishravivekanand/project/khatabahi/khatabah-api-componenet/khatabahi-api-common/src/main/java/com/org/khatabahi/common/constant/StatusCode.java
+/Users/mishravivekanand/project/khatabahi/khatabah-api-componenet/khatabahi-api-common/src/main/java/com/org/khatabahi/common/GenericCustomerInfo.java
+/Users/mishravivekanand/project/khatabahi/khatabah-api-componenet/khatabahi-api-common/src/main/java/com/org/khatabahi/common/exception/DefaultApiException.java
+/Users/mishravivekanand/project/khatabahi/khatabah-api-componenet/khatabahi-api-common/src/main/java/com/org/khatabahi/common/base/response/GenericResponseContext.java
+/Users/mishravivekanand/project/khatabahi/khatabah-api-componenet/khatabahi-api-common/src/main/java/com/org/khatabahi/common/GenericProfile.java
+/Users/mishravivekanand/project/khatabahi/khatabah-api-componenet/khatabahi-api-common/src/main/java/com/org/khatabahi/common/utils/KhatabahiRequestResponseUtils.java
+/Users/mishravivekanand/project/khatabahi/khatabah-api-componenet/khatabahi-api-common/src/main/java/com/org/khatabahi/common/base/request/GenericRequest.java
+/Users/mishravivekanand/project/khatabahi/khatabah-api-componenet/khatabahi-api-common/src/main/java/com/org/khatabahi/common/base/response/GenericResponseHeader.java
+/Users/mishravivekanand/project/khatabahi/khatabah-api-componenet/khatabahi-api-common/src/main/java/com/org/khatabahi/common/utils/InstanceUtils.java
+/Users/mishravivekanand/project/khatabahi/khatabah-api-componenet/khatabahi-api-common/src/main/java/com/org/khatabahi/common/base/response/GenericResponseBody.java
+/Users/mishravivekanand/project/khatabahi/khatabah-api-componenet/khatabahi-api-common/src/main/java/com/org/khatabahi/common/base/request/GenericRequestContext.java

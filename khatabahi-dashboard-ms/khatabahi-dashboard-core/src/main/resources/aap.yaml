@@ -1,0 +1,6 @@
+path : /v1/details
+context:
+  CustomerormerDetais:
+    property:
+      id: string
+      name: string

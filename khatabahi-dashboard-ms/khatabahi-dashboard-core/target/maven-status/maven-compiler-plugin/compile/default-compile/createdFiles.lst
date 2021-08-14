@@ -1,0 +1,9 @@
+com/org/khatabahi/dashboard/api/response/DashboardUserDetails.class
+com/org/khatabahi/dashboard/api/response/UserDetailsResponseBody.class
+com/org/khatabahi/dashboard/DashboardAppplication.class
+com/org/khatabahi/dashboard/api/response/builder/UserDetailsResponseBuilderImpl.class
+com/org/khatabahi/dashboard/command/UserDetailsListCommand.class
+com/org/khatabahi/dashboard/model/UserDetails.class
+com/org/khatabahi/dashboard/api/DashboardController.class
+com/org/khatabahi/dashboard/service/impl/DashboardServiceImpl.class
+com/org/khatabahi/dashboard/service/DashboardService.class

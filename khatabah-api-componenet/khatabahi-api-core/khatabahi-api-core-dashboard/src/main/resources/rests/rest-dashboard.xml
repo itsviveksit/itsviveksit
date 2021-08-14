@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
+    ">
+    <restContext id="dashboardRestContext" xmlns="http://camel.apache.org/schema/spring">
+        <rest path="{{urlMappings.oneFA}}{{urlMappings.dashboard}}" consumes="application/json" produces="application/json">
+            <description>Rest Service for Dashboard</description>
+            <post>
+                <description>Get Dashboard details</description>
+                <responseMessage message="get loan message successfully retiurned" code="200"/>
+                <to uri="{{1fa.v1.ccs_dashboard_v1_details}}"/>
+            </post>
+        </rest>
+    </restContext>
+</beans>

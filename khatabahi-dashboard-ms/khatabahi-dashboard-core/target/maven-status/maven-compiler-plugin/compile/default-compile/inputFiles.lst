@@ -1,0 +1,9 @@
+/Users/mishravivekanand/project/khatabahi/khatabahi-dashboard-ms/khatabahi-dashboard-core/src/main/java/com/org/khatabahi/dashboard/api/response/DashboardUserDetails.java
+/Users/mishravivekanand/project/khatabahi/khatabahi-dashboard-ms/khatabahi-dashboard-core/src/main/java/com/org/khatabahi/dashboard/api/DashboardController.java
+/Users/mishravivekanand/project/khatabahi/khatabahi-dashboard-ms/khatabahi-dashboard-core/src/main/java/com/org/khatabahi/dashboard/DashboardAppplication.java
+/Users/mishravivekanand/project/khatabahi/khatabahi-dashboard-ms/khatabahi-dashboard-core/src/main/java/com/org/khatabahi/dashboard/service/impl/DashboardServiceImpl.java
+/Users/mishravivekanand/project/khatabahi/khatabahi-dashboard-ms/khatabahi-dashboard-core/src/main/java/com/org/khatabahi/dashboard/service/DashboardService.java
+/Users/mishravivekanand/project/khatabahi/khatabahi-dashboard-ms/khatabahi-dashboard-core/src/main/java/com/org/khatabahi/dashboard/command/UserDetailsListCommand.java
+/Users/mishravivekanand/project/khatabahi/khatabahi-dashboard-ms/khatabahi-dashboard-core/src/main/java/com/org/khatabahi/dashboard/api/response/UserDetailsResponseBody.java
+/Users/mishravivekanand/project/khatabahi/khatabahi-dashboard-ms/khatabahi-dashboard-core/src/main/java/com/org/khatabahi/dashboard/api/response/builder/UserDetailsResponseBuilderImpl.java
+/Users/mishravivekanand/project/khatabahi/khatabahi-dashboard-ms/khatabahi-dashboard-core/src/main/java/com/org/khatabahi/dashboard/model/UserDetails.java

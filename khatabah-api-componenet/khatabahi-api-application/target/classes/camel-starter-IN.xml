@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
+    ">
+<import resource="classpath:camel-error-handler.xml"/>
+<import resource="classpath*:routes/route-dashboard.xml"/>
+<import resource="classpath*:rests/rest-dashboard.xml"/>
+
+    <camelContext id="camelContextId" trace="false" xmlns="http://camel.apache.org/schema/spring" errorHandlerRef="deadLetterErrorHandler" streamCache="true">
+        <contextScan></contextScan>
+        <streamCaching id="cacheConfig" bufferSize="1024" spoolThreshold="131072"/>
+        <!--<jmxAgent createConnector="false" disabled="true" id="agent"
+                  includeHostName="false" mask="false"
+                  onlyRegisterProcessorWithCustomId="false"
+                  registerNewRoutes="true" statisticsLevel="All" usePlatformMBeanServer="true"/>-->
+        <routeContextRef ref="errorCoolRoutes"/>
+        <routeContextRef ref="dashboardRouteContext"/>
+        <restContextRef ref="dashboardRestContext"/>
+    </camelContext>
+    <!--<bean class="org.apache.camel.component.http.HttpComponent" id="http">
+        <property name="camelContext" ref="camelContextId"/>
+    </bean>-->
+  <!--  <bean class="org.apache.camel.component.http.HttpComponent" id="http">
+        <property name="camelContext" ref="camelContextId"/>
+    </bean>-->
+</beans>

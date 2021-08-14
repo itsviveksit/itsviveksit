@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/khatabah-api-componenet/khatabah-api-base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/khatabah-api-componenet/khatabah-api-base/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/khatabah-api-componenet/khatabahi-api-application/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/khatabah-api-componenet/khatabahi-api-application/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/khatabah-api-componenet/khatabahi-api-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/khatabah-api-componenet/khatabahi-api-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/khatabah-api-componenet/khatabahi-api-core/khatabahi-api-core-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/khatabah-api-componenet/khatabahi-api-core/khatabahi-api-core-dashboard/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/khatabahi-dashboard-ms/khatabahi-dashboard-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/khatabahi-dashboard-ms/khatabahi-dashboard-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/khatabahi-logger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/khatabahi-logger/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/khatabahi-starter-parent/khatabahi-common-errorhandler/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/khatabahi-starter-parent/khatabahi-common-errorhandler/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/khatabahi-starter-parent/khatabahi-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/khatabahi-starter-parent/khatabahi-common/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
