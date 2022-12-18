@@ -1,0 +1,7 @@
+userDetails:
+  api:
+    url: http://localhost:8888/userdetails
+    userDetailsEndpoint: /v1/api/getUserDetails
+
+server:
+  port: 9999

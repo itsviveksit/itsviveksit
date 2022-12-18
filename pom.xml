@@ -13,6 +13,7 @@
         <module>khatabahi-starter-parent</module>
         <module>khatabah-api-componenet</module>
         <module>khatabahi-logger</module>
+        <module>khatabahi-user-profile-ms</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,7 +22,7 @@
         <cxf-version>3.1.14</cxf-version>
         <junit-version>4.12</junit-version>
         <spring-version>4.3.16.RELEASE</spring-version>
-        <spring.boot-version>1.5.12.RELEASE</spring.boot-version>
+        <spring.boot-version>2.2.6.RELEASE</spring.boot-version>
         <springfox.swagger-version>2.7.0</springfox.swagger-version>
         <swagger.ui-version>2.2.10-1</swagger.ui-version>
         <isprint-version>4.5.2</isprint-version>

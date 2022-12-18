@@ -1,11 +1,11 @@
 package com.org.khatabahi.dashboard.api;
 
-import com.org.khatabahi.common.base.request.GenericRequest;
 import com.org.khatabahi.common.base.response.GenericResponse;
 import com.org.khatabahi.common.base.response.GenericResponseBody;
 import com.org.khatabahi.common.base.response.GenericResponseHeader;
 import com.org.khatabahi.core.annotation.CommandMapping;
 import com.org.khatabahi.core.aop.RestControllerAspect;
+import com.org.khatabahi.dashboard.api.request.DashboardUserDetailsReq;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
@@ -34,8 +34,8 @@ public class DashboardController {
             @ApiResponse(code=200, message = "Successfully retrieve the dashboard details")
     })
     @PostMapping(value = "v1/user/details")
-    @CommandMapping(command = "userDetailsListCommand", validator = "commonValidator")
-    public GenericResponse<GenericResponseHeader, GenericResponseBody> getUserDetails(@RequestBody  GenericRequest genericRequest){
+    @CommandMapping(command = "userDetailsListCommand", validator = "dashboardCommonValidator")
+    public GenericResponse<GenericResponseHeader, GenericResponseBody> getUserDetails(@RequestBody DashboardUserDetailsReq dashboardUserDetailsReq){
         return null;
     }
 }

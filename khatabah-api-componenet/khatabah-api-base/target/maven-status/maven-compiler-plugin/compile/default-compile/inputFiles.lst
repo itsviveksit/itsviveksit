@@ -8,6 +8,7 @@
 /Users/mishravivekanand/project/khatabahi/khatabah-api-componenet/khatabah-api-base/src/main/java/com/org/khatabahi/api/base/exception/GlobalExceptionHandler.java
 /Users/mishravivekanand/project/khatabahi/khatabah-api-componenet/khatabah-api-base/src/main/java/com/org/khatabahi/api/base/services/impl/FinastraResponseHandlerImpl.java
 /Users/mishravivekanand/project/khatabahi/khatabah-api-componenet/khatabah-api-base/src/main/java/com/org/khatabahi/api/base/exception/annotation/ExceptionDealer.java
+/Users/mishravivekanand/project/khatabahi/khatabah-api-componenet/khatabah-api-base/src/main/java/com/org/khatabahi/api/base/processor/Demo.java
 /Users/mishravivekanand/project/khatabahi/khatabah-api-componenet/khatabah-api-base/src/main/java/com/org/khatabahi/api/base/exception/handler/DefaultAPIExceptionHandler.java
 /Users/mishravivekanand/project/khatabahi/khatabah-api-componenet/khatabah-api-base/src/main/java/com/org/khatabahi/api/base/validation/Validator.java
 /Users/mishravivekanand/project/khatabahi/khatabah-api-componenet/khatabah-api-base/src/main/java/com/org/khatabahi/api/base/processor/AbstractProcessor.java

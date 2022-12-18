@@ -1,4 +1,4 @@
-package com.org.khatabahi.dashboard;
+package com.org.khatabahi.userprofile;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -13,15 +13,15 @@ import org.springframework.scheduling.annotation.EnableAsync;
 
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class, DataSourceTransactionManagerAutoConfiguration.class, HibernateJpaAutoConfiguration.class})
 @ComponentScan(
-		basePackages = {"com.org.khatabahi"}
+		basePackages = {"com.org.khatabahi.userprofile"}
 )
 @EnableAsync
 @EnableConfigurationProperties
 @EnableAspectJAutoProxy
 @EnableFeignClients
-public class DashboardAppplication {
+public class UserProfileApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DashboardAppplication.class, args);
+		SpringApplication.run(UserProfileApplication.class, args);
 	}
 }

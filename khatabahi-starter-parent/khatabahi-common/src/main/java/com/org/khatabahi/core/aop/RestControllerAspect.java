@@ -77,7 +77,8 @@ public class RestControllerAspect {
         String validatorBeanName = commandMappingAnnotation.validator();
         log.info("command lookup: " , commandBeanName);
         //Check if command for specific countrycode exits and use it if it does
-        Command<GenericRequest, ?> command = (Command<GenericRequest, GenericResponse>) this.getBean(commandBeanName + countryCode);
+        //Command<GenericRequest, ?> command = (Command<GenericRequest, GenericResponse>) this.getBean(commandBeanName + countryCode);
+        Command<GenericRequest, ?> command = (Command<GenericRequest, GenericResponse>) this.getBean(commandBeanName);
         if(command == null){
             command = (Command<GenericRequest, GenericResponse>) this.getBean(commandBeanName);
         }
@@ -85,7 +86,8 @@ public class RestControllerAspect {
 
         //check the validator is exit or not
         log.info("validatorBeanName: " , validatorBeanName);
-        Validator<GenericRequest> validator = (Validator<GenericRequest>) this.getBean(validatorBeanName + countryCode);
+        //Validator<GenericRequest> validator = (Validator<GenericRequest>) this.getBean(validatorBeanName + countryCode);
+        Validator<GenericRequest> validator = (Validator<GenericRequest>) this.getBean(validatorBeanName);
         if(validator == null){
             validator = (Validator<GenericRequest>) this.getBean(validatorBeanName);
         }

@@ -5,6 +5,7 @@ com/org/khatabahi/core/validator/CommonValidator.class
 com/org/khatabahi/core/command/SimpleCommand.class
 com/org/khatabahi/core/builder/ResourceResponseBuilder.class
 com/org/khatabahi/core/validator/AbstractValidator.class
+com/org/khatabahi/common/exception/GlobalExceptionHandler.class
 com/org/khatabahi/common/base/response/GenericResponseContext.class
 com/org/khatabahi/config/ValidatorConfig.class
 com/org/khatabahi/common/base/response/GenericResponse$GenericResponseBuilder.class

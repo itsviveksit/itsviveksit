@@ -12,6 +12,7 @@
 /Users/mishravivekanand/project/khatabahi/khatabahi-starter-parent/khatabahi-common/src/main/java/com/org/khatabahi/common/exception/BaseRuntimeException.java
 /Users/mishravivekanand/project/khatabahi/khatabahi-starter-parent/khatabahi-common/src/main/java/com/org/khatabahi/core/annotation/CommandMapping.java
 /Users/mishravivekanand/project/khatabahi/khatabahi-starter-parent/khatabahi-common/src/main/java/com/org/khatabahi/common/base/request/GenericRequestContext.java
+/Users/mishravivekanand/project/khatabahi/khatabahi-starter-parent/khatabahi-common/src/main/java/com/org/khatabahi/common/exception/GlobalExceptionHandler.java
 /Users/mishravivekanand/project/khatabahi/khatabahi-starter-parent/khatabahi-common/src/main/java/com/org/khatabahi/core/validator/CommonValidator.java
 /Users/mishravivekanand/project/khatabahi/khatabahi-starter-parent/khatabahi-common/src/main/java/com/org/khatabahi/core/builder/GenericResponseBuilder.java
 /Users/mishravivekanand/project/khatabahi/khatabahi-starter-parent/khatabahi-common/src/main/java/com/org/khatabahi/core/validator/ValidateMetaData.java

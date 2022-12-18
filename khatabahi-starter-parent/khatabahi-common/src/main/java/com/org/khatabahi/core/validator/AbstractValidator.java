@@ -22,7 +22,7 @@ public abstract  class AbstractValidator<T extends GenericRequest> implements Va
     @Autowired
     BeanFactory beanFactory;
 
-    private List<ValidateMetaData> test(T t){
+    private List<ValidateMetaData> validateRequest(T t){
         List<ValidateMetaData> validations = prepareValidationMetaData();
         commonValidation(validations);
         StandardEvaluationContext context = new StandardEvaluationContext(t);
@@ -33,10 +33,9 @@ public abstract  class AbstractValidator<T extends GenericRequest> implements Va
                 .collect(Collectors.toList());
     }
 
-
     @Override
     public boolean validate(T request) {
-        List<ValidateMetaData> failedValidations = test(request);
+        List<ValidateMetaData> failedValidations = validateRequest(request);
         if(!failedValidations.isEmpty()){
             throw new DefaultApiException(StatusCode.GENERIC_FAILURE_COM_ERR_199.getStatusCode(),
                     failedValidations.stream().map(ValidateMetaData::toString).collect(Collectors.joining(", ")));
@@ -50,5 +49,4 @@ public abstract  class AbstractValidator<T extends GenericRequest> implements Va
         validations.add(new ValidateMetaData("serviceRequestBody?.profile?.customerInformation?.groupId == null || serviceRequestBody?.profile?.customerInformation?.groupId.isEmpty()", "GROUP-ID-MISSING", "Group Id required"));
         return validations;
     }
-
 }
